@@ -1,3 +1,3 @@
 gg.alert("github")
-T = load(gg.makeRequest("https://bitbucket.org/idkwits/simcity/raw/e741041145999d116c219907810248a216107f2d/README.md").content)
+T = load(gg.makeRequest("https://bitbucket.org/idkwits/simcity/raw/2f5ce11579d0ae2e14b5d07889d4f4808bd2b35f/README.md").content)
 pcall(T)
