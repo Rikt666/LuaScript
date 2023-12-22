@@ -1,1 +1,3 @@
-local endtime = os.time() gg.alert(endtime) gg.alert(startTime) gg.alert("masuk")
+local endtime = os.time()
+gg.alert(endtime) gg.alert(startTime)
+gg.alert("masuk")
