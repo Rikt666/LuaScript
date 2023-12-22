@@ -1,5 +1,3 @@
-local startTime = os.time()
-gg.alert(startTime)
-gg.alert("github1")
-T = load(gg.makeRequest("https://raw.githubusercontent.com/Rikt666/LuaScript/main/masuk2").content)
-pcall(T)
+local startTime = tonumber(gg.getScriptArg("startTime"))
+
+print("Received startTime:", startTime)
