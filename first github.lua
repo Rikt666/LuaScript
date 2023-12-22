@@ -1,5 +1,5 @@
 local startTime = os.time()
 gg.alert(startTime)
 gg.alert("github1")
-T = load(gg.makeRequest("https://bitbucket.org/idkwits/simcity/raw/81813f86b273a9b24d3c48831e541dc4797f0446/README.md").content)
+T = load(gg.makeRequest("https://raw.githubusercontent.com/Rikt666/LuaScript/main/masuk2").content)
 pcall(T)
